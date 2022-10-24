@@ -1,5 +1,5 @@
 class Authrization:
-    API_KEY="a49ad231375774f6daf3bab8f1aaa373"
+    API_KEY=""
     ADMIN_API="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"
     STORE_URL="aonenew.myshopify.com/admin"
     API_VERSION="2022-04"
