@@ -17,14 +17,10 @@ def send_message_data():
         secondary_phone = '+1{0}'.format(secondary)
         if primary is None:
             print("Send_SMS_Primary")
-            Send_SMS.send_text_message('+17739319991',sms_body)
-            print(primary_phone)
-            # Send_SMS.send_text_message(primary_phone,sms_body)
+            Send_SMS.send_text_message(primary_phone,sms_body)
         else:
             print("Send_SMS_Secondary")
-            Send_SMS.send_text_message('+17738376666',sms_body)
-            print(secondary_phone)
-            # Send_SMS.send_text_message(secondary_phone,sms_body)
+            Send_SMS.send_text_message(secondary_phone,sms_body)
         time.sleep(5)
 
 send_message_data()
